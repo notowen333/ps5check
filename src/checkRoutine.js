@@ -1,5 +1,15 @@
+const { Puppeteer } = require('puppeteer');
 const c = require('./constants');
 
+/**
+ * called after the page is finished loading. Searches the HTML content of a page
+ * for the given regex pattern. Returns true if it doesn't find the regex pattern that occurs
+ * on the out of stock page.
+ * 
+ * @param {Puppeteer page} page the page to search
+ * @param {RegExp} regex pattern to search for
+ * @returns {boolean}
+ */
 async function searchHTMLContent(page, regex) {
     let res = (await page.content()).search(regex);
     if (res == -1) {

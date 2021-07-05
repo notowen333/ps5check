@@ -43,7 +43,7 @@ async function main() {
     // if we have a result send a message to yourself with the URL of the available ps5
     var results = [targetRes, amazonRes, psDirectRes]
     for (let res of results) {
-        if (res != false) {
+        if (res == true) {
             exec(`node sendSMS.js ${res}`); // send yourself a message with the available URL
         }
     }
