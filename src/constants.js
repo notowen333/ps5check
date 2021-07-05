@@ -1,3 +1,6 @@
+/**
+ * Each key has a value of <Array<string>>
+ */
 const websites = {
     target: [
         'https://www.target.com/p/playstation-5-digital-edition-console/-/A-81114596',
@@ -12,6 +15,9 @@ const websites = {
     ],
 }
 
+/**
+ * Each pattern has a value of <RegExp>
+ */
 const patterns = {
     target: /Sold out/,
     amazon: /Currently unavailable\./,
