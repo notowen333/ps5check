@@ -2,7 +2,11 @@
 
 Checks Amazon, Target, and psDirect for an available Playstation 5 console. If it finds one, it sends you a text message at the phone number you've provided a .env file.
 
-The methodology of the app is to wait for the page to load and then search the HTML content of the provided pages for out of stock content. If it doesn't find that content, it sends you a text message with the URL.
+The methodology of the app is as follows:
+
+1. Wait for the page to load
+2. Look for an element that only appears when the ps5 is out of stock.
+3. If this element is not found, send yourself a text message of the URL with the available ps5!
 
 ## Setup
 
