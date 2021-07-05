@@ -19,7 +19,7 @@ TWILIO_PHONE_NUMBER =
 RECEIVING_PHONE_NUMBER = 
 ```
 
-It costs $1 to buy a phone number and 1 penny per message. You get something like $15 in free credit when you make an account. (You can get $50 credit with github education)
+It costs $1 to buy a phone number and 1 penny per message. You get something like $15 in free credit when you make an account. (You can get $50 credit with github education). With a trial account, you can only send messages to verified phone numbers.
 
 ### Install dependencies
 
