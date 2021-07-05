@@ -1,0 +1,16 @@
+{
+  "name": "ps5bot",
+  "version": "1.0.0",
+  "description": "An app to check retail websites if the ps5 is in stock and send yourself a text message with the available URL.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js"
+  },
+  "author": "Owen Kaplan",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "puppeteer": "^10.1.0",
+    "twilio": "^3.65.0"
+  }
+}
