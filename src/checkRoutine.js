@@ -6,7 +6,7 @@ const c = require('./constants');
  * for the given regex pattern. Returns true if it doesn't find the regex pattern that occurs
  * on the out of stock page.
  * 
- * @param {Puppeteer page} page the page to search
+ * @param {puppet.Page} page the page to search
  * @param {RegExp} regex pattern to search for
  * @returns {boolean}
  */
@@ -29,7 +29,7 @@ module.exports = {
     /**
      * Generalized search for sold out ps5
      * 
-     * @param {Puppeteer Page} page The page the browser loaded
+     * @param {puppet.Page} page The page the browser loaded
      * @param {Array<string>} urls  The urls for this retailer
      * @param {RegExp} pattern The regular expression that indicates sold out
      * @returns 
